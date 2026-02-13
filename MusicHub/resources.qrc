@@ -1,0 +1,31 @@
+<!-- This must be compiled using pyrcc5 everytime we change something -->
+
+<!DOCTYPE RCC><RCC version = "1.0">
+<qresource>
+<file>Assets/add.png</file>
+<file>Assets/bin.png</file>
+<file>Assets/downloads.png</file>
+<file>Assets/fast-forward.png</file>
+<file>Assets/find.png</file>
+<file>Assets/history.png</file>
+<file>Assets/home.png</file>
+<file>Assets/musical.png</file>
+<file>Assets/mute.png</file>
+<file>Assets/open.png</file>
+<file>Assets/pause.png</file>
+<file>Assets/play-button.png</file>
+<file>Assets/playing.png</file>
+<file>Assets/playlist.png</file>
+<file>Assets/queue.png</file>
+<file>Assets/repeat-default.png</file>
+<file>Assets/repeat-once.png</file>
+<file>Assets/repeat.png</file>
+<file>Assets/Rewind.png</file>
+<file>Assets/shuffle-default.png</file>
+<file>Assets/shuffle.png</file>
+<file>Assets/small-play.png</file>
+<file>Assets/songs-folder.png</file>
+<file>Assets/sound.png</file>
+<file>Assets/upload.png</file>
+</qresource>
+</RCC>

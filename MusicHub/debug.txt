@@ -1,0 +1,392 @@
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 354, in nextSong
+    next_song_key = self.music_player.playNextSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 174, in playNextSong
+    if current.next is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'
+Traceback (most recent call last):
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicHub.py", line 367, in prevSong
+    prev_song_key = self.music_player.playPreviousSong()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shane/GitHub/Cross-Platfrom-Music-Player/MusicHub/MusicPlayer.py", line 225, in playPreviousSong
+    if current.prev is None:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'prev'

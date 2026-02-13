@@ -1,0 +1,4 @@
+[project]
+name = "MusicHub"
+version = "0.1.0"
+dependencies = ["PyQt5","tqdm","pygame","mutagen"]
