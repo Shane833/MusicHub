@@ -468,5 +468,6 @@ def main():
     sys.exit(app.exec_())
 
 # Calling the main Function
-main()
+if __name__ == "__main__":
+    main()
     
