@@ -37,19 +37,9 @@ class VisibleSong(QWidget):
         self.play_song_but.resize(QSize(20,20))
         self.play_song_but.setToolTip("Play Song")
         
-        # Adding button for uploading to other device
-        self.upload_song_but = QPushButton(self)
-        self.upload_song_but.setIcon(QIcon(":Assets/upload.png"))
-        self.upload_song_but.setIconSize(QSize(20,20))
-        self.upload_song_but.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
-        self.upload_song_but.setStyleSheet("background-color : none")
-        self.upload_song_but.resize(QSize(20,20))
-        self.upload_song_but.setToolTip("Stream Song")
-        
         # Lets create a layout to arrange the things
         h_box = QHBoxLayout()
         h_box.addWidget(self.play_song_but)
-        h_box.addWidget(self.upload_song_but)
         h_box.addWidget(self.visible_title)
         h_box.addStretch()
         
@@ -125,15 +115,7 @@ class MusicPlayerUI(QWidget):
         self.clear_song_but.setStyleSheet("background-color : none")
         self.clear_song_but.resize(QSize(38,38))
         self.clear_song_but.setToolTip("Clear All")
-        
-        self.recv_song_but = QPushButton(self.playing_queue_widget)
-        self.recv_song_but.setIcon(QIcon(":Assets/downloads.png"))
-        self.recv_song_but.setIconSize(QSize(38,38))
-        self.recv_song_but.setSizePolicy(but_size_policy)
-        self.recv_song_but.setStyleSheet("background-color : none")
-        self.recv_song_but.resize(QSize(38,38))
-        self.recv_song_but.setToolTip("Clear All")
-        
+                
         # Scrollable list item
         song_scroll_area = QScrollArea()
         song_area = QWidget()
@@ -152,7 +134,6 @@ class MusicPlayerUI(QWidget):
         song_area_hbox.addWidget(self.add_song_but)
         song_area_hbox.addWidget(self.add_folder_but)
         song_area_hbox.addWidget(self.clear_song_but)
-        song_area_hbox.addWidget(self.recv_song_but)
         song_area_hbox.addStretch()
         
         # Adding vbox to add them all

@@ -1,0 +1,134 @@
+Extractor	Extractor.py	/^class Extractor:$/;"	c
+__init__	Extractor.py	/^    def __init__(self):$/;"	m	class:Extractor
+checkImage	Extractor.py	/^    def checkImage(self):$/;"	m	class:Extractor
+getData	Extractor.py	/^    def getData(self):$/;"	m	class:Extractor
+getImage	Extractor.py	/^    def getImage(self):$/;"	m	class:Extractor
+getSong	Extractor.py	/^    def getSong(self):$/;"	m	class:Extractor
+loadSong	Extractor.py	/^    def loadSong(self,song):$/;"	m	class:Extractor
+setData	Extractor.py	/^    def setData(self):$/;"	m	class:Extractor
+CircularList	List.py	/^class CircularList:$/;"	c
+List	List.py	/^class List:$/;"	c
+Node	List.py	/^class Node:$/;"	c
+__eq__	List.py	/^    def __eq__(self, other):$/;"	m	class:Node
+__hash__	List.py	/^    def __hash__(self):$/;"	m	class:Node
+__init__	List.py	/^    def __init__(self):$/;"	m	class:CircularList
+__init__	List.py	/^    def __init__(self):$/;"	m	class:List
+__init__	List.py	/^    def __init__(self, key, value):$/;"	m	class:Node
+__len__	List.py	/^    def __len__(self):$/;"	m	class:List
+append	List.py	/^    def append(self, key, value):$/;"	m	class:CircularList
+append	List.py	/^    def append(self, key, value):$/;"	m	class:List
+clear	List.py	/^    def clear(self):$/;"	m	class:List
+display	List.py	/^    def display(self):$/;"	m	class:List
+getKeys	List.py	/^    def getKeys(self):$/;"	m	class:List
+getNext	List.py	/^    def getNext(self):$/;"	m	class:CircularList
+isEmpty	List.py	/^    def isEmpty(self):$/;"	m	class:List
+prepend	List.py	/^    def prepend(self, key, value):$/;"	m	class:List
+remove	List.py	/^    def remove(self, key):$/;"	m	class:List
+search	List.py	/^    def search(self, key):$/;"	m	class:List
+MusicHub	MusicHub.py	/^class MusicHub(MusicPlayerUI): # Inheriting the UI element$/;"	c
+__init__	MusicHub.py	/^    def __init__(self): $/;"	m	class:MusicHub
+addSong	MusicHub.py	/^    def addSong(self,files = None):$/;"	m	class:MusicHub
+addSongFolder	MusicHub.py	/^    def addSongFolder(self):$/;"	m	class:MusicHub
+changeSongPosition	MusicHub.py	/^    def changeSongPosition(self):$/;"	m	class:MusicHub
+changeVolume	MusicHub.py	/^    def changeVolume(self,value):$/;"	m	class:MusicHub
+clearLists	MusicHub.py	/^    def clearLists(self):$/;"	m	class:MusicHub
+clearScrollArea	MusicHub.py	/^    def clearScrollArea(self):$/;"	m	class:MusicHub
+clearWidgets	MusicHub.py	/^    def clearWidgets(self):$/;"	m	class:MusicHub
+handleEndEvent	MusicHub.py	/^    def handleEndEvent(self):$/;"	m	class:MusicHub
+main	MusicHub.py	/^def main():$/;"	f
+muteVolume	MusicHub.py	/^    def muteVolume(self):$/;"	m	class:MusicHub
+nextSong	MusicHub.py	/^    def nextSong(self):$/;"	m	class:MusicHub
+pauseResumeSong	MusicHub.py	/^    def pauseResumeSong(self):        $/;"	m	class:MusicHub
+playSong	MusicHub.py	/^    def playSong(self,seekBarValue = None):$/;"	m	class:MusicHub
+playSongFromScroll	MusicHub.py	/^    def playSongFromScroll(self,title):$/;"	m	class:MusicHub
+prevSong	MusicHub.py	/^    def prevSong(self):$/;"	m	class:MusicHub
+repeat	MusicHub.py	/^    def repeat(self):$/;"	m	class:MusicHub
+seconds_to_mm_ss	MusicHub.py	/^    def seconds_to_mm_ss(self,seconds):$/;"	m	class:MusicHub
+setDefault	MusicHub.py	/^    def setDefault(self):$/;"	m	class:MusicHub
+setupFunctions	MusicHub.py	/^    def setupFunctions(self):$/;"	m	class:MusicHub
+shuffle	MusicHub.py	/^    def shuffle(self):$/;"	m	class:MusicHub
+updateImageArea	MusicHub.py	/^    def updateImageArea(self):$/;"	m	class:MusicHub
+updateScrollArea	MusicHub.py	/^    def updateScrollArea(self,title):$/;"	m	class:MusicHub
+updateSeekBar	MusicHub.py	/^    def updateSeekBar(self,value = None):$/;"	m	class:MusicHub
+MusicPlayList	MusicPlayer.py	/^class MusicPlayList(PlayList):$/;"	c
+MusicPlayer	MusicPlayer.py	/^class MusicPlayer:$/;"	c
+__init__	MusicPlayer.py	/^    def __init__(self):$/;"	m	class:MusicPlayer
+__init__	MusicPlayer.py	/^    def __init__(self,name):$/;"	m	class:MusicPlayList
+add	MusicPlayer.py	/^    def add(self,song):$/;"	m	class:MusicPlayList
+addSong	MusicPlayer.py	/^    def addSong(self,filename):$/;"	m	class:MusicPlayer
+addSongs	MusicPlayer.py	/^    def addSongs(self,filenames):$/;"	m	class:MusicPlayer
+handleEndEvent	MusicPlayer.py	/^    def handleEndEvent(self):$/;"	m	class:MusicPlayer
+pauseResumeSong	MusicPlayer.py	/^    def pauseResumeSong(self):$/;"	m	class:MusicPlayer
+playNextSong	MusicPlayer.py	/^    def playNextSong(self):$/;"	m	class:MusicPlayer
+playPreviousSong	MusicPlayer.py	/^    def playPreviousSong(self):$/;"	m	class:MusicPlayer
+playSong	MusicPlayer.py	/^    def playSong(self):$/;"	m	class:MusicPlayer
+remove	MusicPlayer.py	/^    def remove(self,title):$/;"	m	class:MusicPlayList
+repeat	MusicPlayer.py	/^    def repeat(self):$/;"	m	class:MusicPlayList
+shuffle	MusicPlayer.py	/^    def shuffle(self):$/;"	m	class:MusicPlayList
+toggleRepeat	MusicPlayer.py	/^    def toggleRepeat(self):$/;"	m	class:MusicPlayer
+toggleShuffle	MusicPlayer.py	/^    def toggleShuffle(self):$/;"	m	class:MusicPlayer
+MusicPlayerUI	MusicPlayerUI.py	/^class MusicPlayerUI(QWidget):$/;"	c
+VisibleSong	MusicPlayerUI.py	/^class VisibleSong(QWidget):$/;"	c
+__init__	MusicPlayerUI.py	/^    def __init__(self):$/;"	m	class:MusicPlayerUI
+__init__	MusicPlayerUI.py	/^    def __init__(self,title):$/;"	m	class:VisibleSong
+animateText	MusicPlayerUI.py	/^    def animateText(self):$/;"	m	class:MusicPlayerUI
+initializeUI	MusicPlayerUI.py	/^    def initializeUI(self):$/;"	m	class:MusicPlayerUI
+initializeUI	MusicPlayerUI.py	/^    def initializeUI(self):$/;"	m	class:VisibleSong
+setupUI	MusicPlayerUI.py	/^    def setupUI(self):$/;"	m	class:MusicPlayerUI
+switchWidget	MusicPlayerUI.py	/^    def switchWidget(self):$/;"	m	class:MusicPlayerUI
+PlayList	PlayList.py	/^class PlayList:$/;"	c
+__init__	PlayList.py	/^    def __init__(self,name):$/;"	m	class:PlayList
+add	PlayList.py	/^    def add(self,song):$/;"	m	class:PlayList
+isEmpty	PlayList.py	/^    def isEmpty(self):$/;"	m	class:PlayList
+remove	PlayList.py	/^    def remove(self,title):$/;"	m	class:PlayList
+search	PlayList.py	/^    def search(self,title):$/;"	m	class:PlayList
+Player	Player.py	/^class Player(QObject): # Inheriting the necessary class$/;"	c
+__init__	Player.py	/^    def __init__(self):$/;"	m	class:Player
+checkEvent	Player.py	/^    def checkEvent(self):$/;"	m	class:Player
+getElapsedTime	Player.py	/^    def getElapsedTime(self):$/;"	m	class:Player
+getVolume	Player.py	/^    def getVolume(self):$/;"	m	class:Player
+isPlaying	Player.py	/^    def isPlaying(self):$/;"	m	class:Player
+load	Player.py	/^    def load(self,filename):            $/;"	m	class:Player
+pause	Player.py	/^    def pause(self):$/;"	m	class:Player
+play	Player.py	/^    def play(self):$/;"	m	class:Player
+queueUpNext	Player.py	/^    def queueUpNext(self,filename):         $/;"	m	class:Player
+resume	Player.py	/^    def resume(self):$/;"	m	class:Player
+rewind	Player.py	/^    def rewind(self):$/;"	m	class:Player
+setEndEvent	Player.py	/^    def setEndEvent(self):$/;"	m	class:Player
+setPlaybackTime	Player.py	/^    def setPlaybackTime(self,pos):$/;"	m	class:Player
+setVolume	Player.py	/^    def setVolume(self,volume):$/;"	m	class:Player
+sound_finished	Player.py	/^    sound_finished = pyqtSignal()$/;"	v	class:Player
+stop	Player.py	/^    def stop(self):$/;"	m	class:Player
+unload	Player.py	/^    def unload(self):$/;"	m	class:Player
+Song	Song.py	/^class Song:$/;"	c
+__init__	Song.py	/^    def __init__(self):$/;"	m	class:Song
+__str__	Song.py	/^    def __str__(self):$/;"	m	class:Song
+getAlbum	Song.py	/^    def getAlbum(self):$/;"	m	class:Song
+getArtist	Song.py	/^    def getArtist(self):$/;"	m	class:Song
+getCover	Song.py	/^    def getCover(self):$/;"	m	class:Song
+getDuration	Song.py	/^    def getDuration(self):$/;"	m	class:Song
+getFile	Song.py	/^    def getFile(self):$/;"	m	class:Song
+getFormat	Song.py	/^    def getFormat(self):$/;"	m	class:Song
+getPlayList	Song.py	/^    def getPlayList(self):$/;"	m	class:Song
+getPlaying	Song.py	/^    def getPlaying(self):$/;"	m	class:Song
+getTitle	Song.py	/^    def getTitle(self):$/;"	m	class:Song
+setAlbum	Song.py	/^    def setAlbum(self,album):$/;"	m	class:Song
+setArtist	Song.py	/^    def setArtist(self,artist):$/;"	m	class:Song
+setCover	Song.py	/^    def setCover(self,cover):$/;"	m	class:Song
+setDuration	Song.py	/^    def setDuration(self,duration):$/;"	m	class:Song
+setFile	Song.py	/^    def setFile(self,filename):$/;"	m	class:Song
+setFormat	Song.py	/^    def setFormat(self,format):$/;"	m	class:Song
+setPlayList	Song.py	/^    def setPlayList(self,playlist):$/;"	m	class:Song
+setPlaying	Song.py	/^    def setPlaying(self,state):$/;"	m	class:Song
+setTitle	Song.py	/^    def setTitle(self,title):$/;"	m	class:Song
+qCleanupResources	resources_rc.py	/^def qCleanupResources():$/;"	f
+qInitResources	resources_rc.py	/^def qInitResources():$/;"	f
+qt_resource_data	resources_rc.py	/^qt_resource_data = b"\\$/;"	v
+qt_resource_name	resources_rc.py	/^qt_resource_name = b"\\$/;"	v
+qt_resource_struct	resources_rc.py	/^    qt_resource_struct = qt_resource_struct_v1$/;"	v
+qt_resource_struct	resources_rc.py	/^    qt_resource_struct = qt_resource_struct_v2$/;"	v
+qt_resource_struct_v1	resources_rc.py	/^qt_resource_struct_v1 = b"\\$/;"	v
+qt_resource_struct_v2	resources_rc.py	/^qt_resource_struct_v2 = b"\\$/;"	v
+qt_version	resources_rc.py	/^qt_version = [int(v) for v in QtCore.qVersion().split('.')]$/;"	v
+rcc_version	resources_rc.py	/^    rcc_version = 1$/;"	v
+rcc_version	resources_rc.py	/^    rcc_version = 2$/;"	v
