@@ -14,6 +14,13 @@ import resources_rc # for using compiled resoruces binary
 # Ok so we would need to create another class called visible playlist which would maintain
 # the same instances of the music playlist
 
+# GLOBAL BUTTON STYLESHEET
+button_style_sheet = None
+if os.name == 'nt':
+    button_style_sheet = "background-color : transparent"
+else:
+    button_style_sheet = "background-color : none"
+
 class MusicHub(MusicPlayerUI): # Inheriting the UI element
     # Constructor
     def __init__(self): 
@@ -105,7 +112,10 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         # Also whenever this function is called we must change the icon on the play/pause button
         self.play_but.setIcon(QIcon(":Assets/pause.png"))
         self.play_but.setIconSize(QSize(63,63))
-        self.play_but.setStyleSheet("background-color : none")
+        
+        # TODO: check the os type and depending on it set the style sheet
+
+        self.play_but.setStyleSheet(button_style_sheet)
         self.play_but.resize(QSize(63,63))
         
         self.seek_timer.stop()
@@ -173,7 +183,8 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         current_widget_label.setStyleSheet("color : black;")
         current_widget_button.setIcon(QIcon(":Assets/small-play.png"))
         current_widget_button.setIconSize(QSize(20,20))
-        current_widget_button.setStyleSheet("background-color : none")
+        current_widget_button.setStyleSheet(button_style_sheet)
+
         current_widget_button.resize(QSize(20,20))
         
         # Now find the new song to be played
@@ -183,7 +194,7 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         new_widget_label.setStyleSheet("color : red;")
         new_widget_button.setIcon(QIcon(":Assets/playing.png"))
         new_widget_button.setIconSize(QSize(20,20))
-        new_widget_button.setStyleSheet("background-color : none")
+        new_widget_button.setStyleSheet(button_style_sheet)
         new_widget_button.resize(QSize(20,20))
         
         # Now you would also need to update to be current song
@@ -211,7 +222,7 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         # Defaulting the icon
         self.play_but.setIcon(QIcon(":Assets/play-button.png"))
         self.play_but.setIconSize(QSize(60,60))
-        self.play_but.setStyleSheet("background-color : none")
+        self.play_but.setStyleSheet(button_style_sheet)
         self.play_but.resize(QSize(60,60))
         # Defaulting the labels
         self.song_name.setText("Unknown    ")
@@ -292,14 +303,14 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
             if not self.music_player.player.PAUSED:
                 self.play_but.setIcon(QIcon(":Assets/pause.png"))
                 self.play_but.setIconSize(QSize(63,63))
-                self.play_but.setStyleSheet("background-color : none")
+                self.play_but.setStyleSheet(button_style_sheet)
                 self.play_but.resize(QSize(63,63))
   
         elif not self.music_player.player.isPlaying():
             if self.music_player.player.PAUSED:
                 self.play_but.setIcon(QIcon(":Assets/play-button.png"))
                 self.play_but.setIconSize(QSize(60,60))
-                self.play_but.setStyleSheet("background-color : none")
+                self.play_but.setStyleSheet(button_style_sheet)
                 self.play_but.resize(QSize(60,60))  
 
     # Function to change the volume of the song as per the user
@@ -322,7 +333,7 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
             # now change the icon
             self.min_vol_but.setIcon(QIcon(":Assets/sound.png"))
             self.min_vol_but.setIconSize(QSize(20,20))
-            self.min_vol_but.setStyleSheet("background-color : none")
+            self.min_vol_but.setStyleSheet(button_style_sheet)
             self.min_vol_but.resize(QSize(20,20))
             
         else:
@@ -333,7 +344,7 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
             # now change the icon on the button
             self.min_vol_but.setIcon(QIcon(":Assets/mute.png"))
             self.min_vol_but.setIconSize(QSize(20,20))
-            self.min_vol_but.setStyleSheet("background-color : none")
+            self.min_vol_but.setStyleSheet(button_style_sheet)
             self.min_vol_but.resize(QSize(20,20))
         
     # Function to change the position of the song as per the user
@@ -396,19 +407,19 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         if self.music_player.playing_queue.REPEAT:
             self.repeat_but.setIcon(QIcon(":Assets/repeat.png"))
             self.repeat_but.setIconSize(QSize(30,30))
-            self.repeat_but.setStyleSheet("background-color : none")
+            self.repeat_but.setStyleSheet(button_style_sheet)
             self.repeat_but.resize(QSize(30,30))
         
         elif self.music_player.playing_queue.REPEATONCE:
             self.repeat_but.setIcon(QIcon(":Assets/repeat-once.png"))
             self.repeat_but.setIconSize(QSize(32,32))
-            self.repeat_but.setStyleSheet("background-color : none")
+            self.repeat_but.setStyleSheet(button_style_sheet)
             self.repeat_but.resize(QSize(32,32))
             
         else:
             self.repeat_but.setIcon(QIcon(":Assets/repeat-default.png"))
             self.repeat_but.setIconSize(QSize(30,30))
-            self.repeat_but.setStyleSheet("background-color : none")
+            self.repeat_but.setStyleSheet(button_style_sheet)
             self.repeat_but.resize(QSize(30,30))
     
     # Function to handling shuffle functionality
@@ -420,12 +431,12 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
         if self.music_player.playing_queue.SHUFFLE is True:
             self.shuffle_but.setIcon(QIcon(":Assets/shuffle.png"))
             self.shuffle_but.setIconSize(QSize(35,35))
-            self.shuffle_but.setStyleSheet("background-color : none")
+            self.shuffle_but.setStyleSheet(button_style_sheet)
             self.shuffle_but.resize(QSize(35,35))
         else:
             self.shuffle_but.setIcon(QIcon(":Assets/shuffle-default.png"))
             self.shuffle_but.setIconSize(QSize(35,35))
-            self.shuffle_but.setStyleSheet("background-color : none")
+            self.shuffle_but.setStyleSheet(button_style_sheet)
             self.shuffle_but.resize(QSize(35,35))
         
         # Now we must update the scroll area
@@ -457,7 +468,7 @@ class MusicHub(MusicPlayerUI): # Inheriting the UI element
             current_widget_label.setStyleSheet("color : red;")
             current_widget_button.setIcon(QIcon(":Assets/playing.png"))
             current_widget_button.setIconSize(QSize(20,20))
-            current_widget_button.setStyleSheet("background-color : none")
+            current_widget_button.setStyleSheet(button_style_sheet)
             current_widget_button.resize(QSize(20,20))  
     
     # Function to connect

@@ -11,7 +11,15 @@ from PyQt5.QtWidgets import (QApplication,QWidget,QPushButton,QLabel,QHBoxLayout
                             ,QStackedWidget,QScrollArea)
 from PyQt5.QtGui import QIcon,QPixmap,QFont
 from PyQt5.QtCore import Qt, QSize, QTimer
+import os
 import resources_rc # Adding this to access resources from a compiles resources binary
+
+# GLOBAL BUTTON STYLESHEET
+button_style_sheet = None
+if os.name == 'nt':
+    button_style_sheet = "background-color : transparent"
+else:
+    button_style_sheet = "background-color : none"
 
 # This class will define a visible song entity which will be visible in the scrollable area
 class VisibleSong(QWidget):
@@ -33,7 +41,7 @@ class VisibleSong(QWidget):
         self.play_song_but.setIcon(QIcon(":Assets/small-play.png"))
         self.play_song_but.setIconSize(QSize(20,20))
         self.play_song_but.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
-        self.play_song_but.setStyleSheet("background-color : none")
+        self.play_song_but.setStyleSheet(button_style_sheet)
         self.play_song_but.resize(QSize(20,20))
         self.play_song_but.setToolTip("Play Song")
         
@@ -96,7 +104,7 @@ class MusicPlayerUI(QWidget):
         self.add_song_but.setIcon(QIcon(":Assets/add.png"))        
         self.add_song_but.setIconSize(QSize(45,45))
         self.add_song_but.setSizePolicy(but_size_policy)
-        self.add_song_but.setStyleSheet("background-color : none") # BUG : on linux the paint system don't support   background color so it must be set to none
+        self.add_song_but.setStyleSheet(button_style_sheet) # BUG : on linux the paint system don't support   background color so it must be set to none
         self.add_song_but.resize(QSize(45,45))
         self.add_song_but.setToolTip("Add Song(s)")
         
@@ -104,7 +112,7 @@ class MusicPlayerUI(QWidget):
         self.add_folder_but.setIcon(QIcon(":Assets/songs-folder.png"))
         self.add_folder_but.setIconSize(QSize(45,45))
         self.add_folder_but.setSizePolicy(but_size_policy)
-        self.add_folder_but.setStyleSheet("background-color : none")
+        self.add_folder_but.setStyleSheet(button_style_sheet)
         self.add_folder_but.resize(QSize(45,45))
         self.add_folder_but.setToolTip("Add Song Folder")
         
@@ -112,7 +120,7 @@ class MusicPlayerUI(QWidget):
         self.clear_song_but.setIcon(QIcon(":Assets/bin.png"))
         self.clear_song_but.setIconSize(QSize(38,38))
         self.clear_song_but.setSizePolicy(but_size_policy)
-        self.clear_song_but.setStyleSheet("background-color : none")
+        self.clear_song_but.setStyleSheet(button_style_sheet)
         self.clear_song_but.resize(QSize(38,38))
         self.clear_song_but.setToolTip("Clear All")
                 
@@ -185,7 +193,7 @@ class MusicPlayerUI(QWidget):
         self.play_but.setIcon(QIcon(":Assets/play-button.png"))
         self.play_but.setIconSize(QSize(60,60))
         self.play_but.setSizePolicy(but_size_policy)
-        self.play_but.setStyleSheet("background-color : none")
+        self.play_but.setStyleSheet(button_style_sheet)
         self.play_but.resize(QSize(60,60))
         self.play_but.setToolTip("Play/Pause Song")
         
@@ -193,7 +201,7 @@ class MusicPlayerUI(QWidget):
         self.next_but.setIcon(QIcon(":Assets/fast-forward.png"))
         self.next_but.setIconSize(but_size)
         self.next_but.setSizePolicy(but_size_policy)
-        self.next_but.setStyleSheet("background-color : none")
+        self.next_but.setStyleSheet(button_style_sheet)
         self.next_but.resize(but_size)
         self.next_but.setToolTip("Next Song")
         
@@ -201,7 +209,7 @@ class MusicPlayerUI(QWidget):
         self.prev_but.setIcon(QIcon(":Assets/Rewind.png"))
         self.prev_but.setIconSize(but_size)
         self.prev_but.setSizePolicy(but_size_policy)
-        self.prev_but.setStyleSheet("background-color : none")
+        self.prev_but.setStyleSheet(button_style_sheet)
         self.prev_but.resize(but_size)
         self.prev_but.setToolTip("Previous Song")
         
@@ -209,7 +217,7 @@ class MusicPlayerUI(QWidget):
         self.shuffle_but.setIcon(QIcon(":Assets/shuffle-default.png"))
         self.shuffle_but.setIconSize(but_size)
         self.shuffle_but.setSizePolicy(but_size_policy)
-        self.shuffle_but.setStyleSheet("background-color : none")
+        self.shuffle_but.setStyleSheet(button_style_sheet)
         self.shuffle_but.resize(but_size)
         self.shuffle_but.setToolTip("Shuffle")
         
@@ -217,7 +225,7 @@ class MusicPlayerUI(QWidget):
         self.repeat_but.setIcon(QIcon(":Assets/repeat-default.png"))
         self.repeat_but.setIconSize(QSize(30,30))
         self.repeat_but.setSizePolicy(but_size_policy)
-        self.repeat_but.setStyleSheet("background-color : none")
+        self.repeat_but.setStyleSheet(button_style_sheet)
         self.repeat_but.resize(QSize(30,30))
         self.repeat_but.setToolTip("Repeat")
         
@@ -225,7 +233,7 @@ class MusicPlayerUI(QWidget):
         self.queue_but.setIcon(QIcon(":Assets/queue.png"))
         self.queue_but.setIconSize(QSize(30,30))
         self.queue_but.setSizePolicy(but_size_policy)
-        self.queue_but.setStyleSheet("background-color : none")
+        self.queue_but.setStyleSheet(button_style_sheet)
         self.queue_but.resize(QSize(30,30))
         self.queue_but.setToolTip("Playing Queue")
         self.queue_but.clicked.connect(self.switchWidget)
@@ -243,7 +251,7 @@ class MusicPlayerUI(QWidget):
         self.min_vol_but.setIcon(QIcon(":Assets/sound.png"))
         self.min_vol_but.setIconSize(QSize(20,20))
         self.min_vol_but.setSizePolicy(but_size_policy)
-        self.min_vol_but.setStyleSheet("background-color : none")
+        self.min_vol_but.setStyleSheet(button_style_sheet)
         self.min_vol_but.resize(QSize(20,20))
         self.min_vol_but.setToolTip("Mute")
         
